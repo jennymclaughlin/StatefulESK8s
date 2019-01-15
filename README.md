@@ -3,7 +3,7 @@ This brief instruction shows how to deploy a Elasticsearch cluster on Kubernetes
 ## Deploy
 
 ```shell
-kubectl create -f gce-standard-sc.yml
+kubectl create -f gce-standard-sc.yml (make sure the zone is correct in gce-standard-sc.yml)
 kubectl create -f dev-namespace.yml
 kubectl create -f elasticsearch.yml
 kubectl create -f es-discovery-svc.yml
