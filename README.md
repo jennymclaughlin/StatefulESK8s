@@ -17,7 +17,7 @@ The [`elasticsearch.yml`](elasticsearch.yml) file contains `volumeClaimTemplates
 
 ## Test
 ```shell
-curl 35.200.115.240:9200
+curl 130.211.238.144:9200
 ```
 
 Download Kibana from https://www.elastic.co/downloads/past-releases/kibana-5-6-0 and change the configuration. config/kibana.yml file
