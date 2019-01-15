@@ -20,7 +20,7 @@ The [`elasticsearch.yml`](elasticsearch.yml) file contains `volumeClaimTemplates
 curl 130.211.238.144:9200
 ```
 
-Download Kibana from https://www.elastic.co/downloads/past-releases/kibana-5-6-0 and change the configuration. config/kibana.yml file
+Download [Kibana](https://www.elastic.co/downloads/past-releases/kibana-5-6-0) from  and change the configuration. config/kibana.yml file
 ```shell
 elasticsearch.url: "http://130.211.238.144:9200"
 ```
