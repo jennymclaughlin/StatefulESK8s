@@ -5,9 +5,9 @@ This brief instruction shows how to deploy a Elasticsearch cluster on Kubernetes
 ```shell
 kubectl create -f gce-standard-sc.yml
 kubectl create -f dev-namespace.yml
-kubectl create -f elasticsearch.yaml
-kubectl create -f es-discovery-svc.yaml
-kubectl create -f es-lb-svc.yaml
+kubectl create -f elasticsearch.yml
+kubectl create -f es-discovery-svc.yml
+kubectl create -f es-lb-svc.yml
 ```
 Kubernetes creates the pods for a `StatefulSet` one at a time, waiting for each to come up before starting the next, so it may take a few minutes for all pods to be provisioned.
 These use a `volumeClaimTemplates` to provision persistent storage for each pod.
